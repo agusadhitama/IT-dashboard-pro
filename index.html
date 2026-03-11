@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>IT Dashboard PRO</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<canvas id="stars"></canvas>
+
+<div class="moon"></div>
+
+<div class="container">
+
+<h1>IT Dashboard PRO</h1>
+
+<div class="grid">
+
+<div class="card">
+<h2>CPU Usage</h2>
+<div id="cpu">0%</div>
+</div>
+
+<div class="card">
+<h2>RAM Usage</h2>
+<div id="ram">0%</div>
+</div>
+
+<div class="card">
+<h2>Disk Usage</h2>
+<div id="disk">0%</div>
+</div>
+
+<div class="card">
+<h2>IP Address</h2>
+<div id="ip">detecting...</div>
+</div>
+
+<div class="card">
+<h2>Network Traffic</h2>
+<canvas id="networkChart"></canvas>
+</div>
+
+<div class="card">
+<h2>Speed Test</h2>
+<button onclick="startSpeedTest()">Start</button>
+<div id="speed">0 Mbps</div>
+</div>
+
+<div class="card">
+<h2>Hacker Terminal</h2>
+<pre id="terminal"></pre>
+</div>
+
+<div class="card">
+<h2>Live Clock</h2>
+<div id="clock"></div>
+</div>
+
+</div>
+
+<footer>
+Created by <b>Agus Satria Adhitama</b>
+</footer>
+
+</div>
+
+<div id="notification"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
